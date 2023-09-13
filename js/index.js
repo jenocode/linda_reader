@@ -84,7 +84,7 @@ $(function () {
         //barcode read call back
         Quagga.onDetected(function (result) {
             console.log(result.codeResult.code);
-            $("text-jan").val(result.codeResult.code);
+            $("#text-jan").val(result.codeResult.code);
         });
     }
 
