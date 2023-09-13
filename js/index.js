@@ -89,6 +89,6 @@ const startScanner = () => {
     //barcode read call back
     Quagga.onDetected(function (result) {
         console.log(result.codeResult.code);
-        document.getElementById("text-jan").value = result.codeResult.code;
+//        document.getElementById("text-jan").value = result.codeResult.code;
     });
 }
