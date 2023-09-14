@@ -53,6 +53,54 @@ $(function() {
             "_blank",
         );
     });
+    // 買取1丁目
+    $("#link-1chome").click(function(){
+        getJanCode();
+        window.open(
+            "https://www.1-chome.com/elec/search/" + janCode,
+            "_blank",
+        );
+    });
+    // 買取TOP
+    $("#link-top").click(function(){
+        getJanCode();
+        window.open(
+            "https://stock-resale.com/?s=" + janCode,
+            "_blank",
+        );
+    });
+    // 家電市場
+    $("#link-ichiba").click(function(){
+        getJanCode();
+        window.open(
+            "https://www.kaden-ichiba.com/item/search/" + janCode,
+            "_blank",
+        );
+    });
+    // 買取けんさく君
+    $("#link-kensaku").click(function(){
+        getJanCode();
+        window.open(
+            "https://www.kaitorikensakukun.com/itemsearch/?product_name=" + janCode,
+            "_blank",
+        );
+    });
+    // モバイル一番
+    $("#link-mobaichi").click(function(){
+        getJanCode();
+        window.open(
+            "https://www.mobile-ichiban.com/Prod/0?Search=" + janCode,
+            "_blank",
+        );
+    });
+    // ルデヤ
+    $("#link-rudeya").click(function(){
+        getJanCode();
+        window.open(
+            "https://kaitori-rudeya.com/search/index/" + janCode,
+            "_blank",
+        );
+    });
 
     const getJanCode =() => {
         janCode = $("#input-jan").val();
