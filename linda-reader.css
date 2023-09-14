@@ -20,12 +20,13 @@ html, body{
 }
 
 #title-image{
-    height: 25px;
-    width: 25px;
+    height: 36px;
+    width: 36px;
+    vertical-align: -3px;
 }
 
 #title-text{
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Cherry Bomb One', cursive;
 }
 
