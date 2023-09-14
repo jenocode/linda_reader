@@ -113,6 +113,7 @@ html, body{
     height: 30px;
     float: right;
     margin: 15px;
+    opacity: 0.2;
 }
 /*
 #my_result{
