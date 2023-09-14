@@ -56,7 +56,8 @@ html, body{
 }
 
 #quagga{
-	width: 320px; height: 240px; 
+/*	width: 320px; height: 240px; */
+	width: 320px; height: 430px; 
 	margin: 5px; padding: 0px;
 	position: relative;
 	background-color: silver;
